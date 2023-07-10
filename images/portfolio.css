@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -49,8 +50,171 @@ nav li{
 .banner-img{
     width: 484px;
     height: 576px;
+   
 }
 .banner-container{
     display: flex;
     justify-content: space-around;
+    background-image: url(../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-size: 750px ;
+    background-position: bottom right;
+}
+.nam{
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700; 
+    line-height: normal;
+    margin: 0;
+    margin: 0px;
+}
+.hihi{
+    font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0px;
+}
+.about{
+    /* width:  1140px; */
+    height: 450px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* margin-bottom: 30px; */
+}
+.content-tittle{
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 35px  ;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-top: 100px;
+           
+}
+.textt{
+    padding: 0px 130px;
+    text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+    
+}
+.ifo-container{
+    display: flex;
+    justify-content: space-around;
+}
+.htag{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.c{
+   
+}
+
+/* whaat I do */
+
+
+.skillset-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+  
+    
+}
+.skills-box{
+    width: 240px;
+    height: 320px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.ptxt{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+width: 201px;
+justify-content: center;
+text-align: center;
+margin: 20px;
+}
+.htxt{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.imgmargin{
+    margin: 20px;
+}
+.ptxt{
+    margin-bottom: 0;
+}
+.htxt wid{
+       margin-top: 0;
+}
+.ptxt wid{
+
+}
+.textt2{
+    width: 800px;
+}
+main section{
+    margin-top: 120px;
+}
+
+.resume-container{
+           
+}
+.container-tittle{
+    color:  #474747;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+    width: 500px;
+    gap: 50px;
+}
+.resume-degree{
+    color: #474747;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+
+}
+.details,.resume-institute{
+    color: #757575;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.details{
+    font-size: 16px;
+}
+.download{
+    margin-top: 20px;
+    text-align: center;
 }
