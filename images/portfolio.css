@@ -2,8 +2,18 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+/* nav releted style */
+.header{
+    background-color: #FFF8F3;;
+}
 nav{
     display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
 }
 .nav-tittle{
 color: #181818;
@@ -19,11 +29,28 @@ line-height: normal;
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    padding: 15px 35px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 nav >ul{
     display: flex;
+    align-items: center;
 }
 nav li{
    list-style: none;
    margin-right: 50px;
+}
+/* header related style */
+.banner-img{
+    width: 484px;
+    height: 576px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
 }
